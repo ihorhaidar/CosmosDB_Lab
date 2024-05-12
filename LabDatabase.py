@@ -1,7 +1,7 @@
 from azure.cosmos import CosmosClient, PartitionKey
 
 url = 'https://it-step-cosmos-db2.documents.azure.com:443/'
-key = 'E9ziM0JVhKPeEDNoM0KYzTePmhs7cJGYn0ih28snADCfeCqz5qTLHSlwPU83qQVHweDVTMB5CMIdACDbxkzaYA=='
+key = ''
 
 client = CosmosClient(url, credential=key)
 
